@@ -1,0 +1,95 @@
+body {
+    padding-top: 100px;
+}
+
+.tagcloud {
+    margin-bottom: -2px;
+    overflow: hidden;
+}
+
+.tagcloud a:before {
+    background: none repeat scroll 0 0 #FFFFFF;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.tagcloud a:after {
+    background: none repeat scroll 0 0 #FFFFFF;
+    bottom: -2px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+.tagcloud a {
+    background: none repeat scroll 0 0 #F7F6EF;
+    border: 1px solid #D6D6D6;
+    border-radius: 2px;
+    color: #525252;
+    display: inline-block;
+    float: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px !important;
+    line-height: 26px;
+    margin-bottom: 5px;
+    margin-right: 4px;
+    padding: 0 12px;
+    position: relative;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.tagcloud a:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    text-decoration: none
+}
+
+/*blog*/
+pre code {
+    diplay: none;
+}
+
+.label-arrow {
+    position: relative;
+    padding: .4em .6em .3em;
+}
+
+.label-arrow-left {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 10px;
+}
+
+.label-arrow-left:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-right-color: #999;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+h4 .label-arrow-left {
+    margin-left: 18px;
+}
+
+h4 .label-arrow-left:before {
+    border-width: 13px;
+    margin-top: -13px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*blog*/
